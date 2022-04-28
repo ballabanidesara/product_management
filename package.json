@@ -5,8 +5,8 @@
     "ng": "ng",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
+    "start": "ng serve -o",
+    "build": "ng build"
   },
   "private": true,
   "dependencies": {
